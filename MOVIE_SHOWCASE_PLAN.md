@@ -2,25 +2,27 @@
 
 ## 1. Project Overview
 
-The Movie Showcase Website is a personal, cinematic archive for movies I have watched. It should work as both a movie collection and a visual design gallery, where every movie receives a page or section shaped around its own identity.
+The Movie Showcase Website is a personal, cinematic archive for movies I have watched. It should work as both a movie collection and a visual design gallery, where every movie receives a page or section shaped around its own identity within a sleek black-and-white visual system.
+
+Current aesthetic direction: the site is black and white only. Movie-specific variation should come from composition, contrast, typography, imagery, spacing, texture, and motion rather than hue-based themes or accent palettes.
 
 The purpose of the site is to:
 
 - Build a personal movie archive that records watched films over time.
 - Showcase movies I have watched in a visual and memorable way.
-- Give each movie its own aesthetic design based on its mood, colors, genre, and visual language.
+- Give each movie its own aesthetic design based on its mood, genre, contrast, typography, imagery, and visual language.
 - Make the site feel cinematic, personalized, and expressive rather than like a plain database.
 - Combine practical movie information with personal notes, ratings, memories, and design experimentation.
 
-The finished website should feel like a curated collection of interactive movie posters, personal reviews, and small visual worlds.
+The finished website should feel like a curated collection of interactive black-and-white movie posters, personal reviews, and small visual worlds.
 
 ## 2. Core Concept
 
-The main idea is that every movie page should match the tone, style, and atmosphere of the movie it represents. Instead of using one generic layout for every film, the site should use a shared structure with flexible visual themes.
+The main idea is that every movie page should match the tone, style, and atmosphere of the movie it represents while staying inside the current black-and-white-only aesthetic. Instead of using one generic layout for every film, the site should use a shared structure with flexible monochrome visual treatments.
 
 Each movie can have its own:
 
-- Color palette
+- Black, white, and grayscale palette
 - Typography style
 - Background treatment
 - Layout rhythm
@@ -33,15 +35,15 @@ Each movie can have its own:
 Example aesthetic directions:
 
 - Dark crime movies:
-  - Dark colors, film grain, deep shadows, red accents, gritty textures, narrow layouts, dramatic contrast.
+  - Deep blacks, film grain, sharp shadows, gritty textures, narrow layouts, dramatic contrast.
 - Sci-fi movies:
-  - Neon colors, glass panels, grid backgrounds, futuristic UI, glowing borders, animated lines, digital typography.
+  - Crisp monochrome glass panels, grid backgrounds, futuristic UI, bright white borders, animated lines, digital typography.
 - Romance movies:
-  - Soft colors, blur effects, warm lighting, gentle gradients, elegant type, slower transitions.
+  - Soft grayscale images, blur effects, gentle light, elegant type, slower transitions.
 - War movies:
-  - Muted colors, rough textures, tactical layouts, map-inspired details, worn typography, documentary-style imagery.
+  - Muted grayscale textures, tactical layouts, map-inspired details, worn typography, documentary-style imagery.
 - Animated movies:
-  - Playful layouts, brighter palettes, illustrated shapes, bouncy interactions, rounded cards, expressive typography.
+  - Playful monochrome layouts, illustrated black-and-white shapes, bouncy interactions, expressive typography.
 
 The site should always remain usable, but the emotional tone should shift from movie to movie.
 
@@ -119,7 +121,7 @@ Recommended home page content:
   - Subtle film grain.
   - Letterbox bars.
   - Dark mode base.
-  - Large background gradient based on the featured movie.
+  - Large black-to-white or grayscale background treatment based on the featured movie.
 - Short intro text:
   - A brief explanation that this is a personal collection of watched movies.
   - Keep it concise and atmospheric.
@@ -193,7 +195,7 @@ The gallery should remain easy to use on both desktop and mobile screens.
 
 ## 6. Individual Movie Page Template
 
-Each movie page should use a reusable content structure while allowing the visual style to change based on the movie.
+Each movie page should use a reusable content structure while allowing the visual style to change based on the movie inside the black-and-white-only design direction.
 
 ### Required Movie Information
 
@@ -216,7 +218,7 @@ Each movie page should include:
 - Mood tags
 - Similar movies
 - Screenshots or visual references
-- Color palette
+- Black-and-white palette
 - Aesthetic description
 
 ### Suggested Page Layout
@@ -244,20 +246,20 @@ Each movie page should include:
 - Similar movies:
   - Cards linking to related movies in the archive.
 - Aesthetic notes:
-  - Color palette, fonts, textures, animations, and layout choices.
+  - Black-and-white palette, fonts, textures, animations, and layout choices.
 
 The template should make it easy to add new movies while still giving each page room to feel distinct.
 
 ## 7. Aesthetic System
 
-The aesthetic system defines how the site creates a unique visual identity for each movie page while staying consistent overall.
+The aesthetic system defines how the site creates a unique visual identity for each movie page while staying consistent overall. The current aesthetic direction is sleek black and white only, so all presets and page variations must remain monochrome.
 
 For each movie, define:
 
-- Main color palette:
-  - Primary background color
-  - Secondary background color
-  - Accent color
+- Main monochrome palette:
+  - Primary black, white, or grayscale background
+  - Secondary black, white, or grayscale surface
+  - Black, white, or grayscale emphasis tone
   - Text color
   - Muted text color
 - Font style:
@@ -279,7 +281,7 @@ For each movie, define:
 
 #### Noir
 
-- Colors: black, charcoal, grey, off-white, deep red.
+- Colors: black, charcoal, grey, and off-white.
 - Fonts: serif or condensed display type.
 - Background: smoke texture, shadows, alley-like gradients.
 - Cards: dark panels with thin borders.
@@ -287,15 +289,15 @@ For each movie, define:
 
 #### Sci-Fi
 
-- Colors: black, cyan, violet, electric blue, silver.
+- Colors: black, white, silver, and cool greys.
 - Fonts: geometric sans-serif or futuristic display fonts.
 - Background: glowing grid, glass panels, star fields, interface lines.
 - Cards: translucent panels with glowing borders.
-- Effects: scanlines, neon hover states, animated grid movement.
+- Effects: scanlines, white hover states, animated grid movement.
 
 #### Action
 
-- Colors: dark metal, black, orange, yellow, steel grey.
+- Colors: black, white, dark metal grey, and steel grey.
 - Fonts: bold uppercase sans-serif.
 - Background: motion blur, sparks, city lights, metallic textures.
 - Cards: strong contrast with angular shapes.
@@ -303,7 +305,7 @@ For each movie, define:
 
 #### Drama
 
-- Colors: muted earth tones, soft grey, faded blue, warm beige, deep green.
+- Colors: soft grey, faded white, charcoal, and black.
 - Fonts: elegant serif or restrained sans-serif.
 - Background: large still images, soft gradients, natural light.
 - Cards: minimal and quiet.
@@ -311,7 +313,7 @@ For each movie, define:
 
 #### Horror
 
-- Colors: black, dark red, cold grey, sickly green, faded white.
+- Colors: black, cold grey, faded white, and high-contrast shadow.
 - Fonts: distorted display type, serif, or rough typewriter style.
 - Background: low contrast images, grain, dark rooms, shadow overlays.
 - Cards: uneven edges or tense spacing.
@@ -344,15 +346,15 @@ Suggested movie data fields:
   "moodTags": ["Dark", "Reflective", "Tense"],
   "aesthetic": {
     "palette": {
-      "background": "#101010",
-      "surface": "#1b1b1b",
-      "accent": "#c1121f",
-      "text": "#f5f1e8",
-      "muted": "#9c9992"
+      "background": "#050505",
+      "surface": "#161616",
+      "accent": "#f5f5f5",
+      "text": "#ffffff",
+      "muted": "#9a9a9a"
     },
     "fontStyle": "Condensed serif",
     "backgroundStyle": "Dark gradient with film grain",
-    "cardStyle": "Sharp dark cards with red accents",
+    "cardStyle": "Sharp dark cards with white accents",
     "buttonStyle": "Outlined buttons with subtle glow",
     "texture": "Grain and vignette",
     "animation": "Slow fade and shadow movement",
@@ -428,14 +430,14 @@ Visual directions:
 - Large hero banners on movie pages.
 - Animated page transitions that feel like scene changes.
 - Hover effects on movie cards.
-- Background gradients based on movie colors.
+- Black-to-white or grayscale background treatments based on movie tone.
 - Custom typography per movie aesthetic.
 - Image masks inspired by film frames or posters.
-- Soft glow effects for sci-fi and neon pages.
+- White glow effects for sci-fi-inspired pages.
 - Muted documentary styling for grounded dramas and war films.
 - High contrast shadows for crime, noir, and thriller pages.
-- Warm blur and light leaks for romance or nostalgic movies.
-- Playful motion and color for animated films.
+- Soft blur and grayscale light leaks for romance or nostalgic movies.
+- Playful motion, shape, and contrast for animated films.
 
 The visual system should feel expressive, but the movie content should always remain the main focus.
 
@@ -591,13 +593,13 @@ Reusable components should keep the site consistent and make new movie pages eas
 
 - Provides links to Home, Gallery, Genres, Favorites, Recently Watched, Watchlist, and About.
 - Should stay visually consistent across all aesthetics.
-- Can adapt accent color to the current movie page.
+- Can adapt monochrome emphasis tone to the current movie page.
 
 ### MovieCard
 
 - Displays poster, title, year, rating, and key tags.
 - Used in gallery, favorites, similar movies, and recently watched sections.
-- Should support hover effects and aesthetic accents.
+- Should support hover effects and monochrome aesthetic accents.
 
 ### MovieGrid
 
@@ -648,7 +650,7 @@ Reusable components should keep the site consistent and make new movie pages eas
 
 ### AestheticBackground
 
-- Applies movie-specific background colors, overlays, textures, and effects.
+- Applies movie-specific black-and-white backgrounds, overlays, textures, and effects.
 - Keeps the aesthetic system organized instead of scattering styles everywhere.
 
 ## 14. Example Movie Page Concepts
@@ -658,7 +660,7 @@ These examples use placeholder movies to show how different movie pages could fe
 ### Example 1: The Midnight Case
 
 - Aesthetic direction: Noir crime mystery.
-- Colors: black, charcoal, fog grey, faded white, blood red.
+- Colors: black, charcoal, fog grey, and faded white.
 - Font style: Condensed serif for titles, clean sans-serif for body text.
 - Background idea: Rainy street texture with smoke and heavy vignette.
 - Layout idea: Poster on the left, review and metadata in narrow columns, quote displayed like a case file note.
@@ -667,7 +669,7 @@ These examples use placeholder movies to show how different movie pages could fe
 ### Example 2: Neon Orbit
 
 - Aesthetic direction: Futuristic sci-fi adventure.
-- Colors: deep black, cyan, violet, electric blue, pale silver.
+- Colors: deep black, bright white, pale silver, and cool grey.
 - Font style: Geometric sans-serif with futuristic display headings.
 - Background idea: Animated grid with faint stars and translucent glass panels.
 - Layout idea: Dashboard-inspired sections with glowing dividers and modular cards.
@@ -676,16 +678,16 @@ These examples use placeholder movies to show how different movie pages could fe
 ### Example 3: Summer Letters
 
 - Aesthetic direction: Warm romantic drama.
-- Colors: peach, cream, rose, soft gold, muted brown.
+- Colors: soft white, light grey, neutral grey, and muted black.
 - Font style: Elegant serif headings with soft sans-serif body text.
-- Background idea: Blurred sunset image with warm light leak overlays.
+- Background idea: Blurred grayscale sunset image with soft white light leak overlays.
 - Layout idea: Spacious vertical layout with large still images and handwritten-style quote treatment.
 - Special visual effect: Gentle fade-ins and soft image blur on scroll.
 
 ### Example 4: Iron Valley
 
 - Aesthetic direction: War drama with documentary influence.
-- Colors: olive green, dust brown, faded tan, charcoal, muted red.
+- Colors: charcoal, faded white, dust grey, and muted black.
 - Font style: Sturdy sans-serif with tactical label styling.
 - Background idea: Map texture, paper grain, and rough landscape imagery.
 - Layout idea: Structured mission-report style with metadata blocks and timeline sections.
@@ -694,9 +696,9 @@ These examples use placeholder movies to show how different movie pages could fe
 ### Example 5: Bright Little Planet
 
 - Aesthetic direction: Playful animated fantasy.
-- Colors: sky blue, sunflower yellow, coral, mint green, warm white.
+- Colors: white, soft grey, charcoal, and black.
 - Font style: Rounded display heading with simple readable body font.
-- Background idea: Colorful illustrated shapes and floating planet-like circles.
+- Background idea: High-contrast illustrated shapes and floating planet-like circles.
 - Layout idea: Asymmetrical cards, large poster art, playful tag placement.
 - Special visual effect: Soft bounce hover effects and animated background shapes.
 
@@ -734,7 +736,7 @@ These examples use placeholder movies to show how different movie pages could fe
 ### Phase 5: Aesthetic System
 
 - Create aesthetic settings for each movie.
-- Add dynamic colors, fonts, backgrounds, card styles, and overlays.
+- Add dynamic black-and-white tones, fonts, backgrounds, card styles, and overlays.
 - Build reusable aesthetic presets for common genres.
 - Test that each page still feels consistent with the overall site.
 
@@ -788,6 +790,6 @@ Possible future features:
 
 ## 17. Final Goal
 
-The final goal is to create a personal cinematic archive where each watched movie has its own visual identity. The website should feel like a collection of interactive movie posters and mini-worlds, combining movie information, personal memory, design, and atmosphere.
+The final goal is to create a personal cinematic archive where each watched movie has its own visual identity inside a sleek black-and-white-only aesthetic. The website should feel like a collection of interactive monochrome movie posters and mini-worlds, combining movie information, personal memory, design, and atmosphere.
 
 Visitors should be able to browse the archive like a gallery, search it like a database, and experience each movie page like a small tribute to that film's mood and style.
