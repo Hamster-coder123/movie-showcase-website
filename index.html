@@ -64,14 +64,41 @@
         text-wrap: balance;
       }
 
-      .intro {
-        max-width: 620px;
+      .movie-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
         margin: 0;
-        color: var(--muted);
-        font-size: clamp(1.15rem, 2vw, 1.5rem);
-        font-weight: 400;
-        line-height: 1.55;
-        text-wrap: balance;
+        padding: 0;
+        list-style: none;
+      }
+
+      .movie-link {
+        display: inline-flex;
+        align-items: center;
+        min-height: 34px;
+        padding: 8px 12px;
+        border: 1px solid #242424;
+        color: var(--text);
+        font-size: 0.82rem;
+        font-weight: 600;
+        line-height: 1;
+        text-decoration: none;
+        background: #070707;
+        transition: border-color 160ms ease, color 160ms ease, background 160ms ease;
+      }
+
+      .movie-link:hover,
+      .movie-link:focus-visible {
+        border-color: #5f5f5f;
+        color: #fff;
+        background: #111;
+      }
+
+      .movie-link:focus-visible {
+        outline: 2px solid #fff;
+        outline-offset: 3px;
       }
 
       @media (max-width: 620px) {
@@ -94,9 +121,10 @@
           <p class="eyebrow">Personal cinematic archive</p>
           <h1 id="page-title">Movie Showcase Website</h1>
         </div>
-        <p class="intro">
-          A future home for watched movies, personal reviews, favorites, and movie pages with unique visual identities inspired by each film's mood, genre, contrast, and atmosphere.
-        </p>
+        <ul class="movie-list" aria-label="Movies">
+          <li><a class="movie-link" href="movies/blood-diamond.html">Blood Diamond</a></li>
+          <li><a class="movie-link" href="movies/fight-club.html">Fight Club</a></li>
+        </ul>
       </section>
     </main>
   </body>
