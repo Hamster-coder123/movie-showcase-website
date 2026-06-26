@@ -6,7 +6,7 @@
     <title>Fight Club</title>
     <meta
       name="description"
-      content="A minimal movie page for Fight Club."
+      content="In sleepless rooms and fluorescent basements, a lost man mistakes violence for clarity."
     >
     <style>
       :root {
@@ -97,10 +97,10 @@
         text-wrap: balance;
       }
 
-      .frame-wall {
+      .frame-gallery {
         display: grid;
-        grid-template-columns: minmax(0, 1.45fr) minmax(240px, 0.55fr);
-        gap: 12px;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        gap: 10px;
       }
 
       figure {
@@ -109,29 +109,27 @@
         background: #050505;
       }
 
+      .frame {
+        aspect-ratio: 16 / 9;
+      }
+
+      .frame:nth-child(1),
+      .frame:nth-child(8),
+      .frame:nth-child(15) {
+        grid-column: span 2;
+        grid-row: span 2;
+      }
+
       img {
         display: block;
         width: 100%;
         height: 100%;
         object-fit: cover;
-        filter: grayscale(1) contrast(1.08);
-      }
-
-      .frame-large {
-        aspect-ratio: 16 / 9;
-      }
-
-      .frame-stack {
-        display: grid;
-        gap: 12px;
-      }
-
-      .frame-small {
-        aspect-ratio: 4 / 3;
+        filter: contrast(1.04) saturate(1.04);
       }
 
       .source {
-        margin: -18px 0 0;
+        margin: -16px 0 0;
         color: var(--quiet);
         font-size: 0.74rem;
         line-height: 1.5;
@@ -148,8 +146,15 @@
           padding: 24px 0;
         }
 
-        .frame-wall {
+        .frame-gallery {
           grid-template-columns: 1fr;
+        }
+
+        .frame:nth-child(1),
+        .frame:nth-child(8),
+        .frame:nth-child(15) {
+          grid-column: auto;
+          grid-row: auto;
         }
       }
     </style>
@@ -161,31 +166,31 @@
         <p class="meta">1999 / Directed by David Fincher</p>
         <h1 id="movie-title">Fight Club</h1>
         <p class="description">
-          A stark, restless descent into identity, alienation, and the danger of turning emptiness into doctrine.
+          In sleepless rooms and fluorescent basements, a lost man mistakes violence for clarity.
         </p>
       </section>
       <section aria-label="Movie frames">
-        <div class="frame-wall">
-          <figure class="frame-large">
-            <img
-              src="https://film-grab.com/wp-content/uploads/photo-gallery/01%20%28379%29.jpg?bwg=1547216723"
-              alt="Wide night frame from Fight Club."
-            >
-          </figure>
-          <div class="frame-stack">
-            <figure class="frame-small">
-              <img
-                src="https://film-grab.com/wp-content/uploads/photo-gallery/03%20%28379%29.jpg?bwg=1547216723"
-                alt="Close frame from Fight Club showing the narrator."
-              >
-            </figure>
-            <figure class="frame-small">
-              <img
-                src="https://film-grab.com/wp-content/uploads/photo-gallery/04%20%28379%29.jpg?bwg=1547216723"
-                alt="Interior frame from Fight Club with catalog text overlaid."
-              >
-            </figure>
-          </div>
+        <div class="frame-gallery">
+          <figure class="frame"><img src="https://film-grab.com/wp-content/uploads/photo-gallery/01%20%28379%29.jpg?bwg=1547216723" alt="Fight Club frame 01."></figure>
+          <figure class="frame"><img src="https://film-grab.com/wp-content/uploads/photo-gallery/02%20%28379%29.jpg?bwg=1547216723" alt="Fight Club frame 02."></figure>
+          <figure class="frame"><img src="https://film-grab.com/wp-content/uploads/photo-gallery/03%20%28379%29.jpg?bwg=1547216723" alt="Fight Club frame 03."></figure>
+          <figure class="frame"><img src="https://film-grab.com/wp-content/uploads/photo-gallery/04%20%28379%29.jpg?bwg=1547216723" alt="Fight Club frame 04."></figure>
+          <figure class="frame"><img src="https://film-grab.com/wp-content/uploads/photo-gallery/05%20%28379%29.jpg?bwg=1547216723" alt="Fight Club frame 05."></figure>
+          <figure class="frame"><img src="https://film-grab.com/wp-content/uploads/photo-gallery/06%20%28379%29.jpg?bwg=1547216723" alt="Fight Club frame 06."></figure>
+          <figure class="frame"><img src="https://film-grab.com/wp-content/uploads/photo-gallery/07%20%28379%29.jpg?bwg=1547216723" alt="Fight Club frame 07."></figure>
+          <figure class="frame"><img src="https://film-grab.com/wp-content/uploads/photo-gallery/08%20%28379%29.jpg?bwg=1547216723" alt="Fight Club frame 08."></figure>
+          <figure class="frame"><img src="https://film-grab.com/wp-content/uploads/photo-gallery/09%20%28379%29.jpg?bwg=1547216723" alt="Fight Club frame 09."></figure>
+          <figure class="frame"><img src="https://film-grab.com/wp-content/uploads/photo-gallery/10%20%28379%29.jpg?bwg=1547216723" alt="Fight Club frame 10."></figure>
+          <figure class="frame"><img src="https://film-grab.com/wp-content/uploads/photo-gallery/11%20%28379%29.jpg?bwg=1547216723" alt="Fight Club frame 11."></figure>
+          <figure class="frame"><img src="https://film-grab.com/wp-content/uploads/photo-gallery/12%20%28379%29.jpg?bwg=1547216723" alt="Fight Club frame 12."></figure>
+          <figure class="frame"><img src="https://film-grab.com/wp-content/uploads/photo-gallery/13%20%28379%29.jpg?bwg=1547216723" alt="Fight Club frame 13."></figure>
+          <figure class="frame"><img src="https://film-grab.com/wp-content/uploads/photo-gallery/14%20%28379%29.jpg?bwg=1547216723" alt="Fight Club frame 14."></figure>
+          <figure class="frame"><img src="https://film-grab.com/wp-content/uploads/photo-gallery/15%20%28379%29.jpg?bwg=1547216723" alt="Fight Club frame 15."></figure>
+          <figure class="frame"><img src="https://film-grab.com/wp-content/uploads/photo-gallery/16%20%28379%29.jpg?bwg=1547216723" alt="Fight Club frame 16."></figure>
+          <figure class="frame"><img src="https://film-grab.com/wp-content/uploads/photo-gallery/17%20%28379%29.jpg?bwg=1547216723" alt="Fight Club frame 17."></figure>
+          <figure class="frame"><img src="https://film-grab.com/wp-content/uploads/photo-gallery/18%20%28379%29.jpg?bwg=1547216723" alt="Fight Club frame 18."></figure>
+          <figure class="frame"><img src="https://film-grab.com/wp-content/uploads/photo-gallery/19%20%28379%29.jpg?bwg=1547216723" alt="Fight Club frame 19."></figure>
+          <figure class="frame"><img src="https://film-grab.com/wp-content/uploads/photo-gallery/20%20%28379%29.jpg?bwg=1547216723" alt="Fight Club frame 20."></figure>
         </div>
       </section>
       <p class="source">
